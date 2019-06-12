@@ -13,12 +13,8 @@ set ignorecase
 set smartcase
 noremap <space> viw
 noremap ; :
-noremap : <nop>
 inoremap jj <esc>
-inoremap <esc> <nop>
-nnoremap ,sv :source N:\_vimrc<cr>
 nnoremap ,= gg=G
-nnoremap <esc> :noh<return>
 nnoremap >b mzvi}>'z
 nnoremap <b mzvi}<'z
 nnoremap ,de :g/^\s*$/d<cr>
